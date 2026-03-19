@@ -1830,25 +1830,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/js/.nuget/packages/": {}
+    "/home/jurekg/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/js/RiderProjects/FleetManager/FleetManager/FleetManager.csproj",
+      "projectUniqueName": "/home/jurekg/RiderProjects/Desktop-FleetManager-Gryz-Bialobrzewski/FleetManager/FleetManager.csproj",
       "projectName": "FleetManager",
-      "projectPath": "/Users/js/RiderProjects/FleetManager/FleetManager/FleetManager.csproj",
-      "packagesPath": "/Users/js/.nuget/packages/",
-      "outputPath": "/Users/js/RiderProjects/FleetManager/FleetManager/obj/",
+      "projectPath": "/home/jurekg/RiderProjects/Desktop-FleetManager-Gryz-Bialobrzewski/FleetManager/FleetManager.csproj",
+      "packagesPath": "/home/jurekg/.nuget/packages/",
+      "outputPath": "/home/jurekg/RiderProjects/Desktop-FleetManager-Gryz-Bialobrzewski/FleetManager/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/js/.nuget/NuGet/NuGet.Config"
+        "/home/jurekg/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "/opt/homebrew/Cellar/dotnet/10.0.102/libexec/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1867,7 +1866,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -1918,7 +1917,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/10.0.102/libexec/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/home/jurekg/.dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
