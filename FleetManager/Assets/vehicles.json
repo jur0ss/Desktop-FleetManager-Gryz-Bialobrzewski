@@ -1,5 +1,92 @@
 [
   {
-    
+    "Name": "Volvo FH16",
+    "RegNumber": "NOL 12345",
+    "FuelLevel": 87,
+    "Status": "Available"
+  },
+  {
+    "Name": "Scania R450",
+    "RegNumber": "NMR 45211",
+    "FuelLevel": 54,
+    "Status": "InRoute"
+  },
+  {
+    "Name": "MAN TGX",
+    "RegNumber": "NOL 99821",
+    "FuelLevel": 23,
+    "Status": "Service"
+  },
+  {
+    "Name": "DAF XF",
+    "RegNumber": "NBR 22119",
+    "FuelLevel": 100,
+    "Status": "Available"
+  },
+  {
+    "Name": "Mercedes Actros",
+    "RegNumber": "NOL 77231",
+    "FuelLevel": 65,
+    "Status": "InRoute"
+  },
+  {
+    "Name": "Iveco Stralis",
+    "RegNumber": "NKE 44112",
+    "FuelLevel": 12,
+    "Status": "Service"
+  },
+  {
+    "Name": "Renault T High",
+    "RegNumber": "NOL 55219",
+    "FuelLevel": 78,
+    "Status": "Available"
+  },
+  {
+    "Name": "Volvo FM",
+    "RegNumber": "NLI 88211",
+    "FuelLevel": 34,
+    "Status": "InRoute"
+  },
+  {
+    "Name": "Scania S500",
+    "RegNumber": "NOL 11229",
+    "FuelLevel": 49,
+    "Status": "Available"
+  },
+  {
+    "Name": "MAN TGS",
+    "RegNumber": "NOG 33112",
+    "FuelLevel": 5,
+    "Status": "Service"
+  },
+  {
+    "Name": "DAF CF",
+    "RegNumber": "NOL 77123",
+    "FuelLevel": 92,
+    "Status": "Available"
+  },
+  {
+    "Name": "Mercedes Atego",
+    "RegNumber": "NOL 44155",
+    "FuelLevel": 41,
+    "Status": "InRoute"
+  },
+  {
+    "Name": "Iveco Eurocargo",
+    "RegNumber": "NMR 99112",
+    "FuelLevel": 73,
+    "Status": "Available"
+  },
+  {
+    "Name": "Renault Midlum",
+    "RegNumber": "NOL 66121",
+    "FuelLevel": 16,
+    "Status": "Service"
+  },
+  {
+    "Name": "Volvo FH13",
+    "RegNumber": "NBR 55211",
+    "FuelLevel": 58,
+    "Status": "Available"
   }
 ]
