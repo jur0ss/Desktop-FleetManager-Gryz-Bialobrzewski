@@ -23,6 +23,7 @@ public class Vehicle : ReactiveObject
         }
     }
     
-    [Reactive] public VehicleStatus Status { get; set; } = VehicleStatus.Available;
+    //[Reactive] public VehicleStatus Status { get; set; } = VehicleStatus.Available;
+    [Reactive] public string Status { get; set; } = "available";
 
 }
