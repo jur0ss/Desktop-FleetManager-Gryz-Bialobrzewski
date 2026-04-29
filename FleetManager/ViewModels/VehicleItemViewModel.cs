@@ -20,8 +20,16 @@ public class VehicleItemViewModel : ReactiveObject
 
         RefuelCommand = ReactiveCommand.Create(Refuel);
         SendInRouteCommand = ReactiveCommand.Create(SendInRoute);
-        SetAvailableCommand = ReactiveCommand.Create(() => Vehicle.Status = VehicleStatus.Available);
-        SetServiceCommand = ReactiveCommand.Create(() => Vehicle.Status = VehicleStatus.Service);
+        SetAvailableCommand = ReactiveCommand.Create(() =>
+        {
+            Vehicle.Status = VehicleStatus.Available;
+        });
+
+        SetServiceCommand = ReactiveCommand.Create(() =>
+        {
+            Vehicle.Status = VehicleStatus.Service;
+        });
+
     }
 
     private void Refuel()
