@@ -1,17 +1,18 @@
 using System;
 using ReactiveUI;
 using ReactiveUI.Fody.Helpers;
-
+using System.Text.Json.Serialization;
 
 namespace FleetManager.Models;
 
 public class Vehicle : ReactiveObject
 {
-    
-    [Reactive] public string Name { get; set; } = string.Empty;
-    
-    [Reactive] public string RegNumber { get; set; } = string.Empty;
-    
+    [Reactive] 
+    public string Name { get; set; } = string.Empty;
+
+    [Reactive] 
+    public string RegNumber { get; set; } = string.Empty;
+
     private int _fuelLevel;
     public int FuelLevel
     {
@@ -22,8 +23,8 @@ public class Vehicle : ReactiveObject
             this.RaiseAndSetIfChanged(ref _fuelLevel, clamped);
         }
     }
-    
-    //[Reactive] public VehicleStatus Status { get; set; } = VehicleStatus.Available;
-    [Reactive] public string Status { get; set; } = "available";
 
+    [Reactive]
+    [JsonConverter(typeof(JsonStringEnumConverter))]
+    public VehicleStatus Status { get; set; } = VehicleStatus.Available;
 }
